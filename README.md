@@ -1,22 +1,41 @@
-<p align="center">
-  <img src=".github/icon.svg" width="200" />
-</p>
+# Animazon
 
-<h1 align="center">
-  Animazon
-</h1>
+A React storefront created to practice consuming a GraphQL API with Apollo Client.
 
-Animazon is a website built for studying purposes. That website consumes a [GraphQL API](https://github.com/Mitacho/animazon-graphql)
+## Project goal
 
-You can check the final result at this link <https://mitacho.github.io/animazon/>
+Explore a typed frontend integration with GraphQL while building a small e-commerce-style browsing experience.
 
-## Technologies behind this website
+## Features
 
-- Reactjs
-- TypeScript
-- Styled Components
-- GraphQL ( @apollo/client )
+- Fetch catalog data from a GraphQL service
+- Client-side navigation
+- Reusable styled components
+- Responsive product interface
 
-## Banner
+## Technologies
 
-![Animazon Banner](/.github/banner.svg)
+- **TypeScript**
+- **React**
+- **React Router**
+- **Apollo Client**
+- **GraphQL**
+- **Styled Components**
+
+## What I learned
+
+- Querying a GraphQL API from React
+- Managing remote data with Apollo Client
+- Modeling reusable UI components with TypeScript
+- Separating the frontend from its companion API
+
+## Running locally
+
+```bash
+npm install
+npm start
+```
+
+## About this repository
+
+This repository documents a learning project and the technical decisions explored while building it. It is not presented as a production-ready system.
